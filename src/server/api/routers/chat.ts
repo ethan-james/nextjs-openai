@@ -7,7 +7,7 @@ import {
   protectedProcedure,
 } from "~/server/api/trpc";
 
-declare var process: {
+declare const process: {
   env: {
     OPENAI_API_KEY: string;
   };
